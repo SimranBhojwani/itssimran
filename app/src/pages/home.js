@@ -33,7 +33,7 @@ const Home = () => {
                         <br></br>
                         <p class="is-size-4 has-text-justified is-italic">"Welcome to my homepage. You can probably find me doing either of these activities mentioned in the iconic frame. Apart from that, I'm someone who finds joy in the little things of life and believes in simplicity. I like to observe this beautiful creation of ours and try to understand different perspective because no problem can be solved from the same level of consiousness that created it."</p>
                         <br></br>
-                        <p class="is-size-5 has-text-centered has-text-weight-light is-family-monospace"><a  href="/about">MoreAboutMe :)</a></p>
+                        <p class="is-size-5 has-text-centered has-text-weight-light is-family-monospace"><a  href="#/about">MoreAboutMe :)</a></p>
                     </div>
                 </div>
             </div>

@@ -12,7 +12,7 @@ const Header = () => {
             <Section className="py-5">
             <Navbar className="is-white has-shadow px-10">
                 <Navbar.Brand>
-                <Navbar.Item renderAs="a" href="/">
+                <Navbar.Item renderAs="a" href="#/">
                     <img
                     src={logo}
                     alt="itssimran.com logo"
@@ -26,10 +26,10 @@ const Header = () => {
                 <Navbar.Menu id="nav-links" className={`${isActive? 'is-active' : ''}`}>
 
                 <div className="navbar-end is-size-4">
-                    <a href="/" className="navbar-item " >Home</a>
-                    {/* <a href="/work" className="navbar-item">Work</a> */}
-                    {/* <a href="/quotes" className="navbar-item">Quotes</a> */}
-                    <a href="/about" className="navbar-item">About</a>
+                    <a href="#/" className="navbar-item " >Home</a>
+                    {/* <a href="#/work" className="navbar-item">Work</a> */}
+                    {/* <a href="#/quotes" className="navbar-item">Quotes</a> */}
+                    <a href="#/about" className="navbar-item">About</a>
                     <a href="mailto: 2015simran.bhojwani@ves.ac.in" target="_blank" rel="noreferrer" className="navbar-item"><img src={email} style={{maxHeight: '40px'}} alt="img link to email"/></a>
                     <a href="https://github.com/SimranBhojwani" target="_blank" rel="noreferrer" className="navbar-item"><img src={github} style={{maxHeight: '30px'}} alt="img link to github"/></a>
                 </div>

@@ -1,6 +1,6 @@
 import './App.css';
 import 'bulma/css/bulma.min.css';
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from './pages/home';
@@ -11,16 +11,16 @@ import About from './pages/about';
 function App() {
   return (
     <div className="App">
-       <Router>
+       <HashRouter>
          <Header/>
         <Routes>
-          <Route path='/' element={<Home/>} />
           <Route path='/work' element={<Work/>} />
           <Route path='/quotes' element={<Quotes/>} />
           <Route path='/about' element={<About/>} />
+          <Route path='/' element={<Home/>} />
         </Routes> 
         <Footer/> 
-       </Router>
+       </HashRouter>
      
     </div>
   );
