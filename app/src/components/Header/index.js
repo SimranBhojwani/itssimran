@@ -16,16 +16,16 @@ const Header = () => {
                     <img
                     src={logo}
                     alt="itssimran.com logo"
-                    style={{maxHeight: '90px'}}
+                    style={{maxHeight: '80px'}}
                     />
-                    <p className="is-size-2">itssimran</p>
+                    <p className="is-size-3">itssimran</p>
                 </Navbar.Item>
                 <Navbar.Burger className={`${isActive ? 'is-active' : ''}`} onClick={()=>setisActive(!isActive)}/>
                 </Navbar.Brand>
             
                 <Navbar.Menu id="nav-links" className={`${isActive? 'is-active' : ''}`}>
 
-                <div className="navbar-end is-size-4">
+                <div className="navbar-end is-size-5">
                     <a href="#/" className="navbar-item " >Home</a>
                     {/* <a href="#/work" className="navbar-item">Work</a> */}
                     {/* <a href="#/quotes" className="navbar-item">Quotes</a> */}
