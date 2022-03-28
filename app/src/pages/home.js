@@ -28,10 +28,10 @@ const Home = () => {
                     <img src={homeBg} alt="itssimran.com logo" style={{maxHeight: '800px',transform: `translateY(${offset * 0.1}px)`}}/>
                 </div>
                 <div class="column is-5-desktop is-10-tablet ">
-                    <div class="" style={{transform: `translateY(${offset * 0.3}px)`}} >
+                    <div class="container is-fluid" style={{transform: `translateY(${offset * 0.3}px)`}} >
                         <p class="mb-10 is-size-1 has-text-centered">Hey, Its Simran Here !</p>
                         <br></br>
-                        <p class="is-size-4 has-text-justified is-italic">"Welcome to my homepage. You can probably find me doing either of these activities mentioned in the iconic frame. Apart from that, I'm someone who finds joy in the little things of life and believes in simplicity. I like to observe this beautiful creation of ours and try to understand different perspective because no problem can be solved from the same level of consiousness that created it."</p>
+                        <p class="is-size-4 has-text-justified is-italic">"Welcome to my homepage. You can probably find me doing either of these activities mentioned in the iconic frame. Apart from that, I find joy in the little things of life and believes in simplicity."</p>
                         <br></br>
                         <p class="is-size-5 has-text-centered has-text-weight-light is-family-monospace"><a  href="#/about">MoreAboutMe :)</a></p>
                     </div>
