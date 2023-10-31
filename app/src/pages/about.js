@@ -1,11 +1,11 @@
 import React from 'react'
-import profile from './../assets/about/profile.jpg';
+import homeBg from '../assets/home/home_bg.jpg';
 import {Section} from 'react-bulma-components'
 const About = () => {
     return (
         <div>
              <br></br>
-            <img src={profile} alt="profile picture" style={{maxHeight: '800px'}}/>
+            <img src={homeBg} alt="profile picture" style={{maxHeight: '800px'}}/>
             <Section>
                 <p class="is-size-4 has-text-weight-semibold">
                    Hi, Im Simran Bhojwani.

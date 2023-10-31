@@ -5,7 +5,6 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from './pages/home';
 import Work from './pages/work';
-import Quotes from './pages/quotes';
 import About from './pages/about';
 
 function App() {
@@ -15,7 +14,6 @@ function App() {
          <Header/>
         <Routes>
           <Route path='/work' element={<Work/>} />
-          <Route path='/quotes' element={<Quotes/>} />
           <Route path='/about' element={<About/>} />
           <Route path='/' element={<Home/>} />
         </Routes> 

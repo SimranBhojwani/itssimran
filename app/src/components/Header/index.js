@@ -16,7 +16,7 @@ const Header = () => {
                     <img
                     src={logo}
                     alt="itssimran.com logo"
-                    style={{maxHeight: '80px'}}
+                    style={{maxHeight: '40px'}}
                     />
                     <p className="is-size-3">itssimran</p>
                 </Navbar.Item>
@@ -27,9 +27,8 @@ const Header = () => {
 
                 <div className="navbar-end is-size-5">
                     <a href="#/" className="navbar-item " >Home</a>
-                    {/* <a href="#/work" className="navbar-item">Work</a> */}
-                    {/* <a href="#/quotes" className="navbar-item">Quotes</a> */}
                     <a href="#/about" className="navbar-item">About</a>
+                    <a href="https://dribbble.com/SimranBhojwani" className="navbar-item">Dribbble</a>
                     <a href="mailto: 2015simran.bhojwani@ves.ac.in" target="_blank" rel="noreferrer" className="navbar-item"><img src={email} style={{maxHeight: '40px'}} alt="img link to email"/></a>
                     <a href="https://github.com/SimranBhojwani" target="_blank" rel="noreferrer" className="navbar-item"><img src={github} style={{maxHeight: '30px'}} alt="img link to github"/></a>
                 </div>
