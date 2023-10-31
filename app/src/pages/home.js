@@ -40,7 +40,7 @@ const Home = () => {
             <Section></Section>
             <Section></Section>
             <Section></Section>
-            <Section class="subtitle">[[Yet To Be Added]]</Section>
+            <Section class="subtitle">[Yet To Be Added]</Section>
             <Section></Section>
             <Section></Section>
             <Section></Section>
