@@ -24,7 +24,7 @@ const About = () => {
               </div>
               <div className='step'>
                   <p>2015 - 2019</p>
-                  <p><span>Gratuation </span>Mumbai University</p>
+                  <p><span>Graduation </span>Mumbai University</p>
                   <p>Information Technology</p>
               </div>
               <a href="https://in.linkedin.com/in/simran-bhojwani">
