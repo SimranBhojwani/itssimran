@@ -1,25 +1,20 @@
-import './App.css';
-import 'bulma/css/bulma.min.css';
-import { HashRouter, Routes, Route } from "react-router-dom";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Home from './pages/home';
-import Work from './pages/work';
-import About from './pages/about';
+import React from 'react';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import About from './components/About'
+import Work from './components/Work'
+import Contact from './components/Contact';
+import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className="App">
-       <HashRouter>
-         <Header/>
-        <Routes>
-          <Route path='/work' element={<Work/>} />
-          <Route path='/about' element={<About/>} />
-          <Route path='/' element={<Home/>} />
-        </Routes> 
-        <Footer/> 
-       </HashRouter>
-     
+    <div>
+      <Navbar/>
+      <Hero/>
+      <Work/>
+      <About/>
+      <Contact/>
+      <Footer/>
     </div>
   );
 }

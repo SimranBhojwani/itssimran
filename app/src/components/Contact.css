@@ -1,0 +1,76 @@
+.contact {
+    margin: 0 auto;
+    padding: 6rem;
+    width: 100%;
+    background-color: #f8f8f8;
+}
+
+.contact .container {
+    width: 1240px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.contact .col-1 {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contact .col-1 h2 {
+    font-size: 3rem;
+}
+
+
+.contact .col-1 p:first-of-type {
+    font-size: 1.4rem;
+    margin: 1rem;
+}
+
+.contact .col-2 p:nth-child(1) {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 3rem 0;
+    text-align: center;
+    color: #1e1e1e;
+}
+
+.contact .col-2 p:nth-child(2) {
+    font-size: 2rem;
+    margin: 2rem 0;
+    text-align: center;
+    color: #444;
+}
+
+.contact .button {
+    margin: 2rem 0;
+    width: 300px;
+}
+
+
+@media screen and (max-width:940px) {
+    .contact {
+        padding: 4rem;
+    }
+    .contact .container {
+        max-width: 100%;
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+    }
+
+    .contact .button {
+        margin: 1rem 0;
+        width: 300px;
+    }
+
+    .contact .col-2 {
+        width: 100%;
+    }
+    .contact .col-1 h2 {
+        font-size: 2rem;
+    }
+}
