@@ -89,4 +89,8 @@
     .contact .col-2 p {
         margin: 1rem 0;
     }
+
+    .contact .col-2 p:nth-child(1) {
+        font-size: 1.5rem;
+    }
 }
