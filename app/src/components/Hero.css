@@ -100,3 +100,18 @@
         margin: 2rem;
     }
 }
+
+@media screen and (max-width:480px) {
+
+    .hero .content {
+        padding: 0;
+    }
+
+    .hero .button {
+        width: 200px;
+    }
+    .hero .button {
+       font-size: 0.9rem;
+       margin-top: 4rem;
+    }
+}

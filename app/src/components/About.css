@@ -24,7 +24,7 @@
 }
 
 .about p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     margin-top: 3rem;
     color: #555;
 }
@@ -80,8 +80,8 @@
     }
 
     .about .container img {
-        padding: 0rem;
-        width: 50vw;
+        padding-top: 1rem;
+        width: 60vw;
         margin: auto;
     }
 
