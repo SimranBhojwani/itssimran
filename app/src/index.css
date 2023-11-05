@@ -5,7 +5,7 @@
   --primary-dark: #0C356A;
   --secondary-color: #FFF0CE;
   --secondary-dark: #FFC436;
-  --overlay: rgba(0,0,0,.7);
+  --overlay: rgba(0,0,0,0.7);
 }
 body {
   margin: 0;
