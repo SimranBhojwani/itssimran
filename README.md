@@ -14,3 +14,4 @@
 ## Deploy
 1. Checkout to the main branch and take the latest pull
 2. `npm run deploy`
+3. Push build changes to main
