@@ -1,7 +1,7 @@
 import React from 'react'
 import './Work.css'
 import irctc from './../assets/work/irctc.png'
-import navbar from './../assets/work/navbar.png'
+import ops_board from './../assets/work/ops_board.png'
 import testimonials from './../assets/work/ola.png'
 
 const Work = () => {
@@ -11,6 +11,14 @@ const Work = () => {
         <h2>Selected Work</h2>
         <span className='line'></span>
         <div className='content'>
+         <a href="https://dribbble.com/shots/23175159-Ops-Dashboard?utm_source=Clipboard_Shot&utm_campaign=SimranBhojwani&utm_content=Ops%20Dashboard&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=SimranBhojwani&utm_content=Ops%20Dashboard&utm_medium=Social_Share">
+              <div className='card'>
+                  <img src={ops_board} alt='ops_dashboard'/>
+                  <p>Increased team productivity</p>
+                  <p><span>Ops Dashboard</span></p>
+                  <p>Project Deployed</p>
+              </div>
+            </a>
           <a href="https://dribbble.com/shots/23054899-Ola-Redesign-Casestudy?utm_source=Clipboard_Shot&utm_campaign=SimranBhojwani&utm_content=Ola%20Redesign%20Casestudy&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=SimranBhojwani&utm_content=Ola%20Redesign%20Casestudy&utm_medium=Social_Share">
             <div className='card'>
                 <img src={testimonials} alt='ola casestudy'/>
@@ -27,14 +35,7 @@ const Work = () => {
                   <p>Casestudy</p>
               </div>
             </a>
-            <a href="https://dribbble.com/shots/22822556-Website-Navigation?utm_source=Clipboard_Shot&utm_campaign=SimranBhojwani&utm_content=Website%20Navigation&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=SimranBhojwani&utm_content=Website%20Navigation&utm_medium=Social_Share">
-              <div className='card'>
-                  <img src={navbar} alt='saas navbar'/>
-                  <p>Dynamic website navigation</p>
-                  <p><span>Visual Design</span></p>
-                  <p>Daily UI #053</p>
-              </div>
-            </a>
+           
             
         </div>
         <a href="https://dribbble.com/SimranBhojwani">
