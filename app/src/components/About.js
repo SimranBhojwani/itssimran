@@ -8,7 +8,18 @@ const About = () => {
         <h2>About</h2>
         <span className='line'></span>
         <div className='content'>
-          <img src={simran} alt='Simran Bhojwani Profile'/>
+          {/* <img src={simran} alt='Simran Bhojwani Profile'/> */}
+          <div className='col-1'>
+              <h3>My Story</h3>
+              <br/>
+              <div className='step'>
+                  <p className='post'>I joined BrowserStack as a fresher and being part of central team I solved some creative problems like email automation (Ruby), creating ops dashboard (React Bootstrap, NodeJS). During this time I got opportunity to work with different squads for MVP releases like addition of new data center, new automation framework called Cypress.</p>
+                  <br></br>
+                  <p className='post'>Later I moved to mobile team where I contributed in building mobile regression pipeline (Jenkins as code, NightwatchJS), adding new automation framework UIAutomator (Java) and SLA device releases. Currently, I look after the quality of our new speedboat, Low Code Automation, alongside mobile.</p>
+                  <br></br>
+                  <p className='post'>In the course of testing, I started observing user experience of features that we were adding. That's how I got know about UI/UX. Out of interest, I read online articles and create designs in my own time.</p>
+              </div>
+          </div>
           <div className='col-2'>
               <h3>Background</h3>
               <br/>
